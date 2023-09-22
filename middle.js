@@ -24,7 +24,7 @@ function assertArraysEqual(array, expected) {
 // the middle-most element(s) of the given array.
 
 function middle(array) {
-  let middleIndex = Math.floor(array.length / 2);
+  let middleIndex = Math.floor(array.length / 2)//
 
   if (array.length <= 2) {
     console.log([]);

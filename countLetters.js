@@ -9,10 +9,16 @@ const assertEqual = function (actual, expected) {
 }
 
 
-const countLetters = function (inputString) {
+const countLetters = function (inputString) { //Count the values in the string
   let sum = 0;
+  // let sum1 = [];
+  // let sum2 = {};
 
-  for (const char in inputString) {
+
+
+  // For example, countLetters('LHL') should return results indicating that L appears twice, and H once.
+
+  for (const char of inputString) {
     sum += 1;
   }
 
@@ -20,6 +26,6 @@ const countLetters = function (inputString) {
 };
 
 
+
 const letterCounts = countLetters("LHL");
 console.log(letterCounts);
-
