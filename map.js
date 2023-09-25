@@ -44,8 +44,6 @@ const result2 = map(inputArray2, double);
 assertArraysEqual(result2, expectedOutput2); // Should pass
 
 
-
-
 const toUpperCase = (str) => str.toUpperCase();
 
 // Test Case 3
