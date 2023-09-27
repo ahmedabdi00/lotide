@@ -1,0 +1,29 @@
+{
+  "name": "@a2gttm/lotide",
+  "version": "1.0.0",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedabdi00/lotide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedabdi00/lotide/issues"
+  },
+  "homepage": "https://github.com/ahmedabdi00/lotide#readme",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^9.2.2"
+  },
+  "dependencies": {
+    "my-package": "0.0.0"
+  }
+}
